@@ -33,25 +33,25 @@
 1. 浮动居中：
 ```css
 .pagination {
-    float:left;
-    width:100%;
-    overflow:hidden;
-    position:relative;
+    position: relative;
+    float: left;
+    width: 100%;
+    overflow: hidden;
 } 
 .pagination ul {
-    clear:left;
-    float:left;
-    position:relative;
-    left:50%;
-    text-align:center;
+    position: relative;
+    clear: left;
+    float: left;
+    left: 50%;
+    text-align: center;
 } 
 .pagination li {
-    line-height:25px; 
-    margin:0 5px;
-    display:block;
-    float:left;
-    position:relative;
-    right:50%
+    position: relative;
+    line-height: 25px; 
+    margin: 0 5px;
+    display: block;
+    float: left;
+    right: 50%
 }
 ```
 1. 绝对定位居中：
