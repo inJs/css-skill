@@ -1,6 +1,9 @@
 ##CSS笔记
 
-###CSS3-波浪线
+###CSS-形状系列
+
+1. 波浪线
+
 ```css
 .wavy {
     height: 5px;
@@ -23,6 +26,45 @@
     -o-transform: rotate(-180deg);
     -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg);
+}
+```
+
+1. 圆形
+
+```css
+.circle {
+    display: inline-block;
+
+    width: 80px;
+    height: 80px;
+    background-color: #32B16C;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+```
+
+1. 钩子
+
+```css
+.hanger {
+    display: inline-block;
+    width: 27px;
+    height: 3px;
+    background-color: #FFF;
+    line-height: 0;
+    font-size: 0;
+    vertical-align: middle;
+    -webkit-transform: rotate(41deg);
+}
+
+.hanger::after {
+    content: '/';
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #FFF;
+    -webkit-transform: rotate(-86deg) translateY(186%) translateX(50%);
 }
 ```
 
