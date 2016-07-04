@@ -167,8 +167,8 @@
     width: 100%;
     /* 画圆 */
     background-image: -webkit-radial-gradient(#FFF 0, #FFF 2px, #FFF 3px, #AFAEAE 2px, transparent 5px, transparent);
-    background-image: -moz-radial-gradient(-webkit-radial-gradient(#FFF 0, #FFF 2px, #FFF 3px, #AFAEAE 2px, transparent 5px, transparent);
-    backgorund-image: radial-gradient(-webkit-radial-gradient(#FFF 0, #FFF 2px, #FFF 3px, #AFAEAE 2px, transparent 5px, transparent);
+    background-image: -moz-radial-gradient(#FFF 0, #FFF 2px, #FFF 3px, #AFAEAE 2px, transparent 5px, transparent);
+    background-image: radial-gradient(#FFF 0, #FFF 2px, #FFF 3px, #AFAEAE 2px, transparent 5px, transparent);
     
     background-size: 10px 10px;
     background-position: 0 10px;
