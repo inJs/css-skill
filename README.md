@@ -2,7 +2,7 @@
 
 ### 动画系列
 
-1. loading
+> loading
 
 ```css
 
@@ -153,7 +153,7 @@
 
 ###形状系列
 
-1. 波浪线
+> 波浪线
 
 ```css
 .wavy {
@@ -180,7 +180,7 @@
 }
 ```
 
-1. 圆形
+> 圆形
 
 ```css
 .circle {
@@ -195,7 +195,7 @@
 }
 ```
 
-1. 钩子
+> 钩子
 
 ```css
 .hanger {
@@ -221,9 +221,10 @@
 
 ###居中系列
 
-1. `margin:0 auto;`
-1. parent element: `text-align: center;` target element: `display: inline-block; *display:inline;/*兼容低版本IE*/`
-1. 浮动居中：
+> `margin:0 auto;`
+> parent element: `text-align: center;` target element: `display: inline-block; *display:inline;/*兼容低版本IE*/`
+> 浮动居中：
+
 ```css
 .pagination {
     position: relative;
@@ -247,7 +248,9 @@
     right: 50%
 }
 ```
-1. 绝对定位居中：
+
+> 绝对定位居中：
+
 ```css
 .center { /*水平居中*/
     position: absolute;
@@ -261,6 +264,18 @@
     right: 0;
     bottom: 0;
     left: 0;
+}
+```
+
+> 垂直居中
+
+```css
+.outer {
+    display: table-cell;
+}
+
+.inner {
+    vertical-align: middle;
 }
 ```
 
