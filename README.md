@@ -151,7 +151,7 @@
 
 ```
 
-###形状系列
+### 形状系列
 
 > 波浪线
 
@@ -219,7 +219,7 @@
 }
 ```
 
-###居中系列
+### 居中系列
 
 > `margin:0 auto;`
 > parent element: `text-align: center;` target element: `display: inline-block; *display:inline;/*兼容低版本IE*/`
@@ -279,7 +279,7 @@
 }
 ```
 
-## 清除浮动
+### 清除浮动
 
 ```css
 .clear {
@@ -292,5 +292,25 @@
     height: 0; /*line-height: 0;与height: 0; 取一即可。*/
     line-height: 0;
     visibility: hidden;
+}
+```
+
+### CHROME 默认样式 RESET
+
+1. `input[type=number]`时去掉上下小箭头
+```
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+```
+
+1. `input`、`textarea`、`select` 自动填充（eg. 记住密码等）时, 去掉黄色背景
+```
+input:-webkit-autofill, 
+textarea:-webkit-autofill, 
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
 }
 ```
